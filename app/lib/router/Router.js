@@ -14,14 +14,17 @@ Router.route('/', {
   name: 'Home'
 });
 
-Router.route('/list', {
-  name: 'ListStuff'
+Router.route('/internetexplorer', {
+  name: 'InternetExplorer'
 });
 
-Router.route('/add', {
-  name: 'AddStuff'
+Router.route('/chrome', {
+  name: 'Chrome'
 });
 
+Router.route('/firefox', {
+  name: 'Firefox'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
